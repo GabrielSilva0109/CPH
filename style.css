@@ -433,7 +433,7 @@ main .sobre {
 
 .responsaveis_titulo h1 {
     font-size: 2.8rem;
-    color: #7c5100;
+    color: #28ac00;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -810,7 +810,6 @@ footer .footer_comercial {
     background-color: #18ca00;
     border: 1px solid #333;
 }
-
 
 .footer_sociais li i {
     padding: 30px;
