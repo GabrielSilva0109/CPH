@@ -26,8 +26,9 @@ header {
     justify-content: space-around;
 }
 
+/* Logo Header  */
 .logo{
-    width: 100px;
+    width: 70px;
 }
 
 header .navegacao-primaria {
@@ -64,7 +65,7 @@ header .navegacao-primaria li a:hover::after {
     width: 100%;
     height: 0px;
     padding: 0px;
-    border-bottom: 4px solid #ffff00;
+    border-bottom: 4px solid #179b00d6;
 }
 
 
@@ -72,22 +73,22 @@ header .navegacao-primaria li a:hover::after {
 
 .home {
     animation: inicializar .7s forwards;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    padding: 0px 100px;
+    padding: 20px 100px;
     margin-bottom: -90px;
     margin-top: -45px;
 }
 
-.home div {
-    margin-top: 220px;
-    align-self: start;
-    display: grid;
-    gap: 30px;
-   
+.homeClass {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   height: 600px;
 }
 
 .home div h1 {
@@ -96,6 +97,7 @@ header .navegacao-primaria li a:hover::after {
     font-weight: 600;
     color: #000000;
 }
+
 .home div h2{
     color: rgb(23, 60, 48);
     font-weight: bold;
@@ -104,7 +106,7 @@ header .navegacao-primaria li a:hover::after {
 .home div span{
     font-size: 4.5rem;
     font-family: 'Berkshire Swash';
-    color:#ffff00 ;
+    color:#179b00d6 ;
     font-weight: 900;
 }
 
@@ -113,9 +115,9 @@ header .navegacao-primaria li a:hover::after {
     font-size: 1rem;
     
 }
-.home img {
-    max-width: 550px;
-    border-radius: 50%;
+.logoHome {
+    max-width: 400px;
+    
 }
 
 @media (max-width: 800px){
@@ -138,8 +140,6 @@ header .navegacao-primaria li a:hover::after {
         display: block; /* Ou qualquer outra propriedade de display que você esteja usando */
     }
 }
-
-
 
 /* ============ Sobre =============== */  
 main {
@@ -166,7 +166,7 @@ main .sobre {
 
 .sobre_titulo h1 {
     font-size: 2.8rem;
-    color: #ffff00;
+    color: #09ad00;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -189,11 +189,10 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffff00;
+    background-color: #09ad00;
 }
 
 .sobre img {
-    
     animation: ladoSecao .5s ease-in-out forwards;
     cursor: pointer;
     grid-row: 2;
@@ -228,7 +227,7 @@ main .sobre {
 }
 
 .sobre_texto h1::after {
-    background-color: #ffff00;
+    background-color: #09ad00;
     height: 6px;
     width: 60px;
     margin: 20px 0;
@@ -239,10 +238,11 @@ main .sobre {
 
 .sobre_texto p {
     color: #b6b6b6;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     grid-row: 2;
     grid-column: 1/-1;
     padding: 30px;
+    text-align: justify;
 }
 
 .sobre_info {
@@ -274,7 +274,7 @@ main .sobre {
 }
 
 .sobre_info i {
-    color: #ffff00;
+    color: #1fe700;
     display: inline-block;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -308,7 +308,6 @@ main .sobre {
 
 
 /* RESPONSIVO */
-
 @media(max-width: 992px) {
     .section-div img {
         display: none;
@@ -350,7 +349,6 @@ main .sobre {
     }
 }
 
-
 .atributos {
     display: flex;
     justify-content: center;
@@ -376,7 +374,7 @@ main .sobre {
 
   .atributos ul span{
     font-size: 5rem;
-    color: #ffff00 ;
+    color: #1ced00 ;
   }
 
 @media(max-width: 800px){
@@ -431,13 +429,9 @@ main .sobre {
     padding: 30px;
 }
 
-.nomeGabriel{
-    margin-left: 700px;
-}
-
 .responsaveis_titulo h1 {
     font-size: 2.8rem;
-    color: #ffff00;
+    color: #7c5100;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -460,7 +454,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffff00;
+    background-color: #7c5100;
 }
 
 @media (max-width: 800px){
@@ -474,8 +468,8 @@ main .sobre {
         max-width: 400px;
     }
 }
-/* ============ Avaliação =============== */ 
 
+/* ============ Avaliação =============== */ 
 .avaliacao_titulo {
     margin: 30px 0;
     grid-column: 1/-1;
@@ -508,7 +502,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #ffff00;
+    background-color: #7c5100;
 }
 
 .review {
@@ -642,7 +636,7 @@ main .sobre {
     margin-top: 50px;
     border-radius: 14px;
     padding: 60px;
-    background-color: #ffff00f3;
+    background-color: #19a900f3;
 }
 
 .espaco_titulo {
@@ -660,10 +654,21 @@ main .sobre {
 }
 
 .espaco_titulo p {
-    color: #454545;
+    color: #fafafa;
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    text-align: justify;
     position: relative;
+}
+
+.espaco_nome{
+    color: #000000;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    margin: 20px;
 }
 
 .espaco_titulo div {
@@ -681,15 +686,11 @@ main .sobre {
 }
 
 .meu_espaco ul {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
     gap: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
 .meu_espaco ul li img{
-    cursor: pointer;
     border-radius: 14px;
     position: relative;
     display: grid;
@@ -740,14 +741,6 @@ main .sobre {
     color: #939393;
     font-size: 1.1rem;
 }
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 
