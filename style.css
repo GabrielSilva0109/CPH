@@ -771,10 +771,10 @@ main .sobre {
     margin-bottom: 15px;
     margin-top: 20px;
     font-family: 'Berkshire Swash', cursive;
-    
 }
 
-.footer_titulo p {
+.footer_titulo p,
+footer .footer_comercial {
     color: #454545;
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -795,11 +795,12 @@ main .sobre {
     background-color: #232323;
     margin-bottom: 50px;
 }
-.nomeAvaliacao{
+
+.nomeAvaliacao {
     color: #09ad00;
 }
 
-.mapaGoogle{
+.mapaGoogle {
     margin-left: 300px;
     margin-bottom: 30px;
 }
@@ -810,21 +811,17 @@ main .sobre {
     border: 1px solid #333;
 }
 
-.footer_sociais li a {
-    color: #000000;
-}
 
 .footer_sociais li i {
     padding: 30px;
     font-size: 1.5rem;
-    color: 363636;
+    color: #363636; /* Corrigi aqui, estava sem # */
 }
 
 .footer_sociais li:hover {
-    transition: .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
     cursor: pointer;
     background-color: #023100;
-    
 }
 
 .footer_sociais::before {
@@ -844,15 +841,12 @@ footer .footer_comercial {
     font-family: 'Poppins';
 }
 
-footer .footer_comercial a{
+footer .footer_comercial a {
     color: #00cd90;
 }
 
-@media(max-width: 800px){
-    .mapaGoogle{
+@media (max-width: 800px) {
+    .mapaGoogle {
         display: none;
     }
 }
-
-
-
