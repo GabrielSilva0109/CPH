@@ -123,7 +123,6 @@ header .navegacao-primaria li a:hover::after {
 @media (max-width: 800px){
     .logo{
         margin-left: 150px;
-       
     }
     .home {
        height: 800px;
@@ -307,7 +306,6 @@ main .sobre {
     }
 }
 
-
 /* RESPONSIVO */
 @media(max-width: 738px) {
     .section-div img {
@@ -323,11 +321,7 @@ main .sobre {
     .sobre_texto p {
        font-size: 0.6rem;
     }
-
-
     
-    
-
     .section-div {
         background-image: url(img/pessoa\ ilustrativa.png);
         background-repeat: no-repeat;
@@ -650,6 +644,14 @@ main .sobre {
     .meus_hospedes ul {
         flex-direction: column;
     }
+
+    .espaco-ul {
+        flex-direction: column;
+    }
+
+    .meu_espaco ul li img{
+        max-width: 250px;
+    }
 }
 
 /* ============ Meu Espaço =============== */ 
@@ -706,26 +708,20 @@ main .sobre {
     background-color: #232323;
 }
 
-.meu_espaco ul {
-    display: flex; 
-    gap: 20px;
+.espaco-ul {
+    display: flex;
+    justify-content: center;
 }
 
 .meu_espaco ul li img{
     border-radius: 14px;
-    position: relative;
-    display: grid;
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     text-align: center;
-    max-width: 300px;
+    width: 250px;
     align-content: center;
     height: 300px;
-}
-
-.meu_espaco ul li img:hover{
-    Transform: scale(1.8);
-    transition: 1s;
-    z-index: 1;
 }
 
 .meu_espaco ul li {
@@ -809,6 +805,7 @@ main .sobre {
 .nomeAvaliacao{
     color: #09ad00;
 }
+
 .mapaGoogle{
     margin-left: 300px;
     margin-bottom: 30px;
