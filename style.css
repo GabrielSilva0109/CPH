@@ -223,7 +223,7 @@ main .sobre {
 .sobre_texto h1 {
     font-size: 2.3rem;
     color: #fff;
-    grid-column: 1/-1;
+    grid-column: 1/-1;  
 }
 
 .sobre_texto h1::after {
@@ -241,7 +241,8 @@ main .sobre {
     font-size: 0.8rem;
     grid-row: 2;
     grid-column: 1/-1;
-    padding: 30px;
+    padding: 0;
+    margin: 0;
     text-align: justify;
 }
 
@@ -312,6 +313,20 @@ main .sobre {
     .section-div img {
         display: none;
     }
+
+    .sobre_texto h1 {
+        font-size: 1.5rem;
+        color: #fff;
+        grid-column: 1/-1;  
+    }
+
+    .sobre_texto p {
+       font-size: 0.6rem;
+    }
+
+
+    
+    
 
     .section-div {
         background-image: url(img/pessoa\ ilustrativa.png);
@@ -515,14 +530,16 @@ main .sobre {
 
   .pessoa {
     display: flex;
+    text-align: justify;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
-    height: 420px;
+    width: 350px;
+    height: 400px;
     background: #1111111d;
     border-radius: 14px;
-    padding: 15px;    
-  }
+    padding: 15px;
+    overflow-y: auto; /* Adiciona scroll vertical automático */
+}
 
   .pessoa img{
     border-radius: 50%;
@@ -785,7 +802,9 @@ main .sobre {
     background-color: #232323;
     margin-bottom: 50px;
 }
-
+.nomeAvaliacao{
+    color: #09ad00;
+}
 .mapaGoogle{
     margin-left: 300px;
     margin-bottom: 30px;
