@@ -456,7 +456,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #7c5100;
+    background-color: #28ac00;
 }
 
 @media (max-width: 800px){
@@ -504,7 +504,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #7c5100;
+    background-color: #4ba700;
 }
 
 .review {
