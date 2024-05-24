@@ -535,8 +535,7 @@ main .sobre {
 } 
   
   
-  .review h1
- {
+    .review h1{
     font-size: 1.3rem;
     margin: 0;
   }
@@ -557,8 +556,8 @@ main .sobre {
         margin-bottom: 10px;
     }
 } 
-/* ============ Hospedes =============== */ 
 
+/* ============ Hospedes =============== */ 
 .hospedes{
     margin-top: 50px;
     border-radius: 14px;
@@ -570,10 +569,10 @@ main .sobre {
 .meus_hospedes ul {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     gap: 1px;
     align-items: center;
     justify-content: center;
-    
 }
 
 .meus_hospedes ul li img:hover{
@@ -593,13 +592,11 @@ main .sobre {
     align-content: center;
 }
 
-
 .meus_hospedes ul li {
     cursor: pointer;
-    border-radius: 6px;
     position: relative;
     padding: 10px;
-    display: grid;
+    display: flex;
     text-align: center;
     max-width: 300px;
     align-content: center;
