@@ -743,7 +743,6 @@ main .sobre {
 }
 
 /* FOOTER */
-
 .footer_sociais {
     display: flex;
     justify-content: center;
@@ -752,7 +751,6 @@ main .sobre {
     position: relative;
     align-items: center;
 }
-
 
 .footer_titulo h1 {
     display: flex;
@@ -795,9 +793,10 @@ main .sobre {
 
 .footer_sociais li {
     border-radius: 50%;
-    background-color: #ffff00;
+    background-color: #18ca00;
     border: 1px solid #333;
 }
+
 .footer_sociais li a {
     color: #000000;
 }
@@ -808,11 +807,10 @@ main .sobre {
     color: 363636;
 }
 
-
 .footer_sociais li:hover {
     transition: .4s ease-in-out;
     cursor: pointer;
-    background-color: #76761b;
+    background-color: #023100;
     
 }
 
