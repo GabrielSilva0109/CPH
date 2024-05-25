@@ -439,7 +439,8 @@ main .sobre {
 }
 
 .responsaveis_titulo p {
-    color: #454545;
+    color: #242424;
+    font-weight: bold;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     position: relative;
@@ -560,10 +561,6 @@ main .sobre {
     height: 1200px;
 }
 
-.hospodes p {
-    color: #000000;
-    font-weight: bold;
-}
 .meus_hospedes ul {
     display: flex;
     flex-wrap: wrap;
