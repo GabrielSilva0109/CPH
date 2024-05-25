@@ -461,9 +461,7 @@ main .sobre {
 }
 
 @media (max-width: 800px){
-    .responsaveis img{
-        display: none;
-    }
+    
     .nomeGabriel{
         margin-left: 0px;
     }
