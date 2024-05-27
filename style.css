@@ -555,19 +555,21 @@ main .sobre {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;;
+    width: 450px;
 }
 
 .texto-cao{
+    margin-top: 20px;
     color: white!important;
 }
+
 /* ============ Hospedes =============== */ 
 .hospedes{
     margin-top: 50px;
     border-radius: 14px;
     padding: 20px;
     background-color: #2bb71e;
-    height: 1200px;
+    height: auto;
 }
 
 .meus_hospedes ul {
