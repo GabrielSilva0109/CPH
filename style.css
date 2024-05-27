@@ -551,6 +551,16 @@ main .sobre {
     }
 } 
 
+.texto_caorredor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;;
+}
+
+.texto-cao{
+    color: white!important;
+}
 /* ============ Hospedes =============== */ 
 .hospedes{
     margin-top: 50px;
