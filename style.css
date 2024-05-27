@@ -279,6 +279,36 @@ main .sobre {
     color: white;
 }
 
+.titulo-criterio{
+    margin-left: 20px;
+    display: flex;
+}
+
+.criterio p{
+    text-align: justify;
+}
+
+.criterio{
+    background: #007a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.criterio-left{
+    width: 50%;
+    float: left;
+}
+
+.criterio-right{
+    width: 50%;
+    float: right;
+}
+
+
 @keyframes sobeSecao {
     from {
         transition: .5s;
@@ -303,6 +333,15 @@ main .sobre {
 
 /* RESPONSIVO */
 @media(max-width: 738px) {
+    .criterio{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .criterio-left, .criterio-right{
+        width: 90%;
+    }
+
     .section-div img {
         display: none;
     }
@@ -657,7 +696,6 @@ main .sobre {
         max-width: 250px;
     }
 }
-
 
 /* ============ Meu Espaço =============== */ 
 .espaco {
