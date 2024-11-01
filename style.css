@@ -82,6 +82,7 @@ header .navegacao-primaria li a:hover::after {
     margin-top: -45px;
 }
 
+
 .homeClass {
    display: flex;
    flex-direction: column;
@@ -117,22 +118,25 @@ header .navegacao-primaria li a:hover::after {
 }
 .logoHome {
     max-width: 400px;
-    
 }
 
 @media (max-width: 800px){
-    .logo{
-        margin-left: 150px;
-    }
     .home {
-       height: 800px;
-       margin-top: -200px;
+        margin-top: -160px;
+        padding: 20px 40px;
     }
     .home img{
         display: none;
     }
-    
+    .logo{
+        width: 300px;
+    }
+    .home div h1 {
+        line-height: 60px;
+    }
 }
+
+
 /* CSS para telas maiores que 800px */
 @media (min-width: 801px) {
     .atributos {
@@ -363,7 +367,7 @@ main .sobre {
     }
 
     header {
-        justify-content: space-between;
+        justify-content: center;
         padding: 30px 70px;
     }
 
@@ -894,11 +898,7 @@ footer .footer_comercial a {
     color: #00cd90;
 }
 
-@media (max-width: 800px) {
-    .mapaGoogle {
-        display: none;
-    }
-}
+
 
 .link__whats {
     position: fixed;
@@ -930,4 +930,14 @@ footer .footer_comercial a {
     width: 70px;
     height: 70px;
 
+}
+
+@media (max-width: 800px) {
+    .mapaGoogle {
+        display: none;
+    }
+    .link__whats {
+        right: 25px;
+        bottom: 50px;
+    }
 }
