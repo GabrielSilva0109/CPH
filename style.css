@@ -899,3 +899,35 @@ footer .footer_comercial a {
         display: none;
     }
 }
+
+.link__whats {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    z-index: 1000;
+}
+
+.link__whats a:hover::after {
+    content: "Me chame no WhatsApp!";
+    position: absolute;
+    background-color: #25D366;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.link__whats:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.whats{
+    width: 70px;
+    height: 70px;
+
+}
