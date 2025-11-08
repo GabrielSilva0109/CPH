@@ -769,7 +769,15 @@ main .sobre {
     width: 250px;
     align-content: center;
     height: 300px;
+
+
 }
+.meu_espaco ul li img:hover{
+    transform: scale(1.8);
+    transition: 1s;
+    z-index: 1;
+}
+
 
 .meu_espaco ul li {
     cursor: pointer;
