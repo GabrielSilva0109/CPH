@@ -452,7 +452,6 @@ main .sobre {
 .responsaveis img {
     animation: ladoSecao .5s ease-in-out forwards;
     width: 300px;
-    height: 250px;
     border-radius: 14px;
 }
 
