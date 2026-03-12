@@ -211,13 +211,13 @@ main .sobre {
     grid-template-columns: 1fr 1fr;
 }
 
-.sobre_texto h1 {
+.title_card {
     font-size: 2.3rem;
     color: #fff;
     grid-column: 1/-1;  
 }
 
-.sobre_texto h1::after {
+.title_card::after {
     background-color: #09ad00;
     height: 6px;
     width: 60px;
@@ -234,6 +234,7 @@ main .sobre {
     justify-content: center;
     gap: 32px;
     margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .escola-img{
