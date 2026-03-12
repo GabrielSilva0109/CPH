@@ -340,6 +340,9 @@ main .sobre {
 
 /* RESPONSIVO */
 @media(max-width: 738px) {
+    .content-escola{
+        flex-wrap: wrap;
+    }
     .criterio{
         flex-direction: column;
         gap: 20px;
